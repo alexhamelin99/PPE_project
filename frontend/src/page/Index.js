@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Data from '../component/Data';
 
 const Index = () => {
     return (
@@ -18,10 +19,8 @@ const Index = () => {
                     <div className="justify-content-xl-center p-5">
                         <h2 className="text-center d-md-flex d-lg-flex justify-content-md-center justify-content-lg-center display-4" >Où souhaitez-vous allez ?</h2>
                         <div className="container-fluid form-group d-md-flex justify-content-md-center" data-aos="fade" data-aos-duration="1000">
-                            <input className="bg-light border rounded shadow form-control-lg d-flex col-sm" type="text" placeholder="Départ" required="" autofocus="" autocomplete="on" name="départ"/>
-                            <input className="bg-light border rounded shadow form-control-lg d-flex col-sm" type="text" placeholder="Destination"  autofocus="" autocomplete="on" required="" name="destination"/>
-                            <input className="bg-light border rounded shadow form-control-lg d-flex col-sm" type="date"/>
-                        </div>
+                            
+                        </div><Data/>
                     </div>
                 </div>
             </section>
