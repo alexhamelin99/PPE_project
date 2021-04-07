@@ -24,6 +24,8 @@ const Index = () => {
                     </div>
                 </div>
             </section>
+            <br/>
+            <br/>
         </div>
     )
 }

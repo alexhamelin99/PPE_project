@@ -17,6 +17,9 @@ const Covid = () => {
                     </div>
                 </div>
             </section>
+            <div>
+                
+            </div>
         </div>
     )
 }
